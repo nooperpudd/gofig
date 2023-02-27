@@ -16,11 +16,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/akutz/gofig/types"
-	"github.com/akutz/goof"
-	"github.com/akutz/gotil"
+	"github.com/nooperpudd/gofig/types"
+	"github.com/nooperpudd/goof"
+	"github.com/nooperpudd/gotil"
 	log "github.com/sirupsen/logrus"
-	yaml "gopkg.in/yaml.v2"
+	yaml "gopkg.in/yaml.v3"
 )
 
 var (
@@ -73,7 +73,7 @@ func init() {
 
 	// tell the yaml package to presrve JSON compatibility by using a string
 	// as the map key
-	yaml.PreserveJSONCodecCompatibility(true)
+	//yaml.PreserveJSONCodecCompatibility(true)
 }
 
 // scopedConfig is a scoped configuration information

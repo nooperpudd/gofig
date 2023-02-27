@@ -5,8 +5,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/akutz/gofig/types"
-	"github.com/akutz/goof"
+	"github.com/nooperpudd/gofig/types"
+	"github.com/nooperpudd/goof"
 	log "github.com/sirupsen/logrus"
 )
 

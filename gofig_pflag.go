@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/akutz/gofig/types"
+	"github.com/nooperpudd/gofig/types"
 )
 
 // config contains the configuration information

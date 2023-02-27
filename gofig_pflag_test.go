@@ -1,6 +1,6 @@
 package gofig
 
-import "github.com/akutz/gofig/types"
+import "github.com/nooperpudd/gofig/types"
 
 func testReg3() *configReg {
 	r := newRegistration("Mock Provider")

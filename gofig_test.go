@@ -11,12 +11,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/akutz/gotil"
+	"github.com/nooperpudd/gotil"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	//jww "github.com/spf13/jwalterweatherman"
 
-	"github.com/akutz/gofig/types"
+	"github.com/nooperpudd/gofig/types"
 )
 
 var (
@@ -323,6 +323,7 @@ func TestToJSONCompact(t *testing.T) {
 	c1, c2, eq := assertConfigEqualToJSONCompact(
 		c, jsonConfigWithYamlConfig1, t)
 	if !eq {
+		// todo fix issue
 		t.Fatal("configs not equal pre minVolSize change")
 	}
 	t.Log("configs equal pre minVolSize change")
